@@ -10,6 +10,14 @@ $warning: #ffbe06;
   font-family: "Roboto Condensed", sans-serif; // Override font for specific classes
 }
 
-.nav-item:not(:last-child) {
-  border-right: 1px solid #404040;
+@media (min-width: 1200px) {
+  .nav-item:not(:last-child) {
+    border-right: 1px solid #404040;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-item:not(:last-child) {
+    border-bottom: 1px solid #404040;
+  }
 }

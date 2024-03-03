@@ -11850,8 +11850,15 @@ textarea.form-control-lg {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.nav-item:not(:last-child) {
-  border-right: 1px solid #404040;
+@media (min-width: 1200px) {
+  .nav-item:not(:last-child) {
+    border-right: 1px solid #404040;
+  }
+}
+@media (max-width: 1200px) {
+  .nav-item:not(:last-child) {
+    border-bottom: 1px solid #404040;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
