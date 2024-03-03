@@ -1,0 +1,15 @@
+// Custom.scss
+$primary: #0091ff;
+$warning: #ffbe06;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+@import "../node_modules/bootstrap/scss/bootstrap"; // Import Bootstrap styles
+
+.text-primary,
+.text-primary .text-warning {
+  font-family: "Roboto Condensed", sans-serif; // Override font for specific classes
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid #404040;
+}
