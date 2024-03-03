@@ -1,6 +1,9 @@
 // Custom.scss
 $primary: #0091ff;
 $warning: #ffbe06;
+$success: #00c100;
+$danger: #ff0210;
+$info: #00b9e3;
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 @import "../node_modules/bootstrap/scss/bootstrap"; // Import Bootstrap styles
@@ -20,4 +23,29 @@ $warning: #ffbe06;
   .nav-item:not(:last-child) {
     border-bottom: 1px solid #404040;
   }
+}
+
+.btn-icon-size {
+  width: 200px;
+  height: 200px;
+}
+
+.btn-custom-size {
+  width: 300px;
+  height: 300px;
+  font-size: 35px;
+  color: $white;
+  font-weight: 300;
+}
+
+.btn-orange-darker {
+  @extend .btn;
+  background-color: #ff7418;
+  border-color: #ff7418;
+}
+
+.btn-orange {
+  @extend .btn;
+  background-color: #f6a300;
+  border-color: #f6a300;
 }
