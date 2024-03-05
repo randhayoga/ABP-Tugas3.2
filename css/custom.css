@@ -11917,10 +11917,18 @@ textarea.form-control-lg {
   background-color: #ff7418;
   border-color: #ff7418;
 }
+.btn-orange-darker:hover {
+  background-color: #ff6600;
+  border-color: #ff6600;
+}
 
 .btn-orange {
   background-color: #f6a300;
   border-color: #f6a300;
+}
+.btn-orange:hover {
+  background-color: #ffaa00;
+  border-color: #ffaa00;
 }
 
 /*# sourceMappingURL=custom.css.map */
