@@ -38,6 +38,14 @@ $info: #00b9e3;
   font-weight: 300;
 }
 
+.btn-toggler-size {
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+  color: $white;
+  font-weight: 300;
+}
+
 .btn-orange-darker {
   @extend .btn;
   background-color: #ff7418;

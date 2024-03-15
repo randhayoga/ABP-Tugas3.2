@@ -11913,6 +11913,14 @@ textarea.form-control-lg {
   font-weight: 300;
 }
 
+.btn-toggler-size {
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+}
+
 .btn-orange-darker {
   background-color: #ff7418;
   border-color: #ff7418;
